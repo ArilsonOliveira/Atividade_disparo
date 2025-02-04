@@ -60,7 +60,7 @@ Definições dos Pinos: O código define os pinos para os LEDs (vermelho, azul, 
 
 1- Certifique-se de que o Raspberry Pi Pico da BitDogLab está corretamente configurado para receber o programa.
 
-2- Compile o código com o SDK do Raspberry Pi Pico, caso não seja iniciado automaticamente, importe um novo projeto na extensão do Raspberry Pi Pico.
+2- Compile o código com o SDK do Raspberry Pi Pico, caso não seja iniciado automaticamente, importe um novo projeto na extensão do Raspberry Pi Pico presente no Visual Studio Code.
 
 3- Carregue o código para a BitDogLab.
 
