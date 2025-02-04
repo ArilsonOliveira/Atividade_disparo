@@ -33,24 +33,35 @@ Definições dos Pinos: O código define os pinos para os LEDs (vermelho, azul, 
 # Diagrama de Sequência
 
 - Pressionamento do botão:
+  
 1 - Todos os LEDs são acesos.
+
 2 - Um temporizador é iniciado.
+
 3 - Desligamento sequencial dos LEDs:
+
 4 - LED vermelho desliga após 3 segundos.
+
 5 - LED azul desliga após mais 3 segundos.
+
 6 - LED verde desliga após mais 3 segundos.
+
 7 - Reset do sistema: Todos os LEDs estão apagados e o sistema é resetado para aguardar uma nova interação com o botão.
   
 # Requisitos de Hardware
 
 * Raspberry Pi Pico: Microcontrolador utilizado para controlar os LEDs e o botão.
+  
 * 3 LEDs (vermelho, azul, verde): Para visualização do processo de desligamento sequencial.
+
 * 1 push button: Para iniciar a sequência de desligamento dos LEDs.
   
 # Compilação e Execução
 
 1- Certifique-se de que o Raspberry Pi Pico da BitDogLab está corretamente configurado para receber o programa.
+
 2- Compile o código com o SDK do Raspberry Pi Pico, caso não seja iniciado automaticamente, importe um novo projeto na extensão do Raspberry Pi Pico.
+
 3- Carregue o código para a BitDogLab.
 
 Ao pressionar o botão, os LEDs devem acender e desligar sequencialmente conforme o esperado.
